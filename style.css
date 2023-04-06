@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+details a {
+  display: inline-block;
+  max-width: 30ch;
+}
+
+h1 {
+  font-size: 3.5rem;
+  padding: 0 0 2rem 0;
+  margin: 0 auto;
+}
+
+nav {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+nav > * {
+  margin-bottom: 0.5rem;
+}
