@@ -11,11 +11,10 @@ body {
   flex-direction: column;
 }
 
-details a {
-  display: inline-block;
-  max-width: 30ch;
+details {
+  display: flex;
+  flex-direction: column;
 }
-
 h1 {
   font-size: 3.5rem;
   padding: 0 0 2rem 0;
