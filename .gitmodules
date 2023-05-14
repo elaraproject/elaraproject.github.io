@@ -1,3 +1,4 @@
 [submodule "publications"]
 	path = publications
 	url = https://github.com/elaraproject/elara-publications
+	branch = main
