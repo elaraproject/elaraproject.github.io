@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="author" content="Project Elära contributors" />
+  <meta name="description" 
+  		content=" Project Elära aims to be a unifying effort to connect scientists and engineers around the world in pursuit of open-source research and development" />
+  <!--OpenGraph metadata-->
+  <meta property="og:title"
+  		content=" About" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://elaraproject.github.io/logo.png" />
+  <meta property="og:description"
+  		content=" Project Elära aims to be a unifying effort to connect scientists and engineers around the world in pursuit of open-source research and development" />
+  <title> About</title>
+  
+  <link rel="stylesheet" href="https://elaraproject.github.io/site.css">
+  
+
+</head>
+<body>
+  <nav>
+  	<a href="/">Home</a>
+  	<div id="menu">
+  		<div id="closemenu">
+  			<p>Close</p>
+  			<div>
+  				<!--Close icon-->
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+  			</div>
+  		</div>
+	  	<a href="/about">About</a>
+	  	<a href="https://elaraproject.github.io/elara-handbook/">Docs</a>
+	  	<a href="https://github.com/elaraproject/elara-publications">Publications</a>
+	  	<a href="/news">News</a>
+	  	<a href="/contribute">Contribute</a>
+  	</div>
+  	<div id="menu-hamburger">
+  		<p>Menu</p>
+  		<!--Hamburger menu icon-->
+  		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1)"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
+  	</div>
+  </nav>
+  
+<main>
+	<article>
+ 	<h1 id="about">About</h1>
+<p>Project Elära aims to combine the efforts of scientists, engineers, entrepeneurs, developers, and artists to together improve the world through open-source research. Through open science and open knowledge, it aims to pass down its knowledge and its spirit of collaboration to solve the world's issues through generations of combined effort.</p>
+
+ 	<article>
+</main>
+
+
+  <script>
+  	
+	const closemenu = document.getElementById("closemenu");
+	const hamburgermenu = document.getElementById("menu-hamburger");
+	const menu = document.getElementById("menu");
+
+	hamburgermenu.onclick = function() {
+		menu.style.display = "flex";
+	}
+
+	closemenu.onclick = function() {
+		menu.style.display = "none";
+	}
+  </script>
+</body>
+</html>
