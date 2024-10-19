@@ -2,30 +2,11 @@
 
 {% block content %}
 <header>
-  	<h1>Project Elära</h1>
-  	<p>Open-source research in building a future worthy of humanity.</p>
-  </header>
+    <h1>{{ section.title }}</h1> 
+  	<p>{{ section.extra.subtitle }}</p>
+</header>
 
-  <main>
-  	<h2>About the project</h2>
-  	<p>Project Elära is a vision to create a better world through the spirit of collaboration and openness. It includes research initiatives to build faster-than-light spaceships, black hole reactors, perform climate change mitigation, and develop technologies that will create a future we can only dream of today. But it is not limited to research. We welcome anyone who wants to build a better future with us, and through sharing resources, helping each other, and building an inclusive, welcoming community, we will make that future a reality.</p>
-  	<p>We believe that in working together, we will be able to accomplish far greater things than we could ourselves. And we want to pass our mission down to future generations of scientists, helpers, and dreamers, so that even if we can't finish something in our lifetimes, there will be a person who one day will.</p>
-  	<h2>Published papers</h2>
-  	<details>
- 	  <summary>1. On the machine-learning assisted optimization of Alcubierre-like spacetime metrics</summary>
- 	  <a href="https://elaraproject.github.io/elara-publications/dist/paper-1.html">Paper 1 (web version)</a>
- 	  <a href="https://elaraproject.github.io/elara-publications/dist/paper-1.pdf">Paper 1 (PDF)</a>
- 	</details>
- 	<details>
- 	  <summary>2. Conducting simulations into the energy generation possibilities of black hole superradiance reactors</summary>
- 	  <a href="https://elaraproject.github.io/elara-publications/dist/paper-2.html">Paper 2 (web version)</a>
- 	  <a href="https://elaraproject.github.io/elara-publications/dist/paper-2.pdf">Paper 2 (PDF)</a>
- 	</details>
- 	<details>
- 	 	  <summary>3. A novel technique for space-based energy generation</summary>
- 	 	  <a href="https://elaraproject.github.io/elara-publications/dist/paper-3.html">Paper 3 (web version)</a>
- 	 	  <a href="https://elaraproject.github.io/elara-publications/dist/paper-3.pdf">Paper 3 (PDF)</a>
- 	 	</details>
- 	
-  </main>
+<main>
+  	{{ section.content | safe }}
+</main>
 {% endblock content %}
