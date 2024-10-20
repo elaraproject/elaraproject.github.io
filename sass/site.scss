@@ -164,12 +164,19 @@ main {
 		margin: 2rem 0;
 		background: lighten($bg-color-1, 10%);
 		border-radius: 0.25rem;
+		font-size: 0.95rem;
 		padding: 1.5rem 1rem;
 	}
 
+	details div {
+		margin: 0.5rem 0 0 1rem;
+	}
+
 	summary {
-		font-style: italic;
+		list-style-position: outside;
+		margin-left: 1.5rem;
 		line-height: 1.5;
+		font-weight: bold;
 	}
 
 	a {
