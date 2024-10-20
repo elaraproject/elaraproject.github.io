@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main>
+    <article>
+    <h1>{{ page.title }}</h2>
+    <p class="news-info">{{ page.extra.author }} | {{ page.date | date(format="%B %d, %Y") }}</p>
+    {{ page.content | safe }}
+    <a href="/" class="return-link">Back to home</a>
+    <article>
+</main>
+{% endblock content %}

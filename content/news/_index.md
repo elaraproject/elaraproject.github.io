@@ -1,8 +1,6 @@
 +++
 title="News"
 description="All news updates for Project Elara"
+template="news.html"
+page_template="article.html"
 +++
-
-# News
-
-Project news will be placed here at an eventual date.

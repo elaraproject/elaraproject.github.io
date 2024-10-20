@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<main>
+  <article>
+   <h1 class="news-hero">News</h1>
+   {% for page in section.pages %}
+     <section>
+       <strong class="news-header">{{ page.title }}</strong>
+       <p class="summary">{{ page.summary | safe }}</p>
+       <a href="{{ page.permalink | safe }}">Read more...</a>
+     </section>
+   {% endfor %}
+   <article>
+</main>
+{% endblock content %}

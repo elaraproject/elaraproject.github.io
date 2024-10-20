@@ -175,4 +175,18 @@ main {
 	a {
 		text-decoration: underline;
 	}
+
+	.news-info {
+		font-style: italic;
+	}
+
+	.news-header {
+		color: $tx-color-2;
+		font-size: larger;
+	}
+
+	.news-hero {
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+		padding-bottom: 0.5rem;
+	}
 }
