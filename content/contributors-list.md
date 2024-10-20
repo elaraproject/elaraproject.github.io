@@ -1,6 +1,6 @@
 +++
 title = "contributors-list"
-description = "Full list of contributors to Project Elära"
+description = "Full list of contributors to Project Elara"
 +++
 
 # Contributors and members list

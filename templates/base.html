@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <meta name="author" content="Project Elära contributors" />
+  <meta name="author" content="Project Elara contributors" />
   <meta name="description" 
   		content="{%- if page.description %} {{ page.description }} {%- else %}Building an open-source community of researchers and scientists{%- endif %}" />
   <!--OpenGraph metadata-->
   <meta property="og:title"
-  		content="{%- if page.title %} {{ page.title }} {%- else %}Project Elära{%- endif %}" />
+  		content="{%- if page.title %} {{ page.title }} {%- else %}Project Elara{%- endif %}" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="{{ get_url(path="logo.png", trailing_slash=false) | safe }}" />
   <meta property="og:description"
   		content="{%- if page.description %} {{ page.description }} {%- else %}Building an open-source community of researchers and scientists{%- endif %}" />
-  <title>{%- if page.title %} {{ page.title }} {%- else %}Project Elära{%- endif %}</title>
+  <title>{%- if page.title %} {{ page.title }} {%- else %}Project Elara{%- endif %}</title>
   {% block css %}
   <link rel="stylesheet" href="{{ get_url(path="site.css", trailing_slash=false) | safe }}">
   {% endblock css %}
@@ -31,10 +31,10 @@
   			</div>
   		</div>
 	  	<a href="/about">About</a>
-	  	<a href="https://elaraproject.github.io/elara-handbook/">Docs</a>
-	  	<a href="https://github.com/elaraproject/elara-publications">Publications</a>
+	  	<a href="/charter">Charter</a>
 	  	<a href="/news">News</a>
 	  	<a href="/contribute">Contribute</a>
+	  	<a href="https://github.com/elaraproject/">GitHub</a>
   	</div>
   	<div id="menu-hamburger">
   		<p>Menu</p>

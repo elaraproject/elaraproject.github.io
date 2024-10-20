@@ -1,29 +1,27 @@
 +++
 title = "Project Elara"
 [extra]
-subtitle = "Open-source research in building a future worthy of humanity."
+subtitle = "A pledge to pass down the gift of hope for all future generations"
 +++
 
 ## About the project
 
-Project Elära is a vision to create a better world through the spirit of collaboration and openness. It includes research initiatives to build faster-than-light spaceships, black hole reactors, perform climate change mitigation, and develop technologies that will create a future we can only dream of today. But it is not limited to research. We welcome anyone who wants to build a better future with us, and through sharing resources, helping each other, and building an inclusive, welcoming community, we will make that future a reality.
+Project Elara is a mission to create a just world and equitable world where everyone can live a quality life, created through the hard work of many generations.
 
-We believe that in working together, we will be able to accomplish far greater things than we could ourselves. And we want to pass our mission down to future generations of scientists, helpers, and dreamers, so that even if we can't finish something in our lifetimes, there will be a person who one day will.
+## Who we are
 
-## Our papers
+We are a **nonprofit organization for engineering and research** that strives to make the world better. We dedicate ourselves to undertaking the scientific advancements to build the better world we envision, and to release our work and technology as **open-source and for absolutely no cost**.
 
-<details>
-  <summary>1. On the machine-learning assisted optimization of Alcubierre-like spacetime metrics</summary>
-  <a href="https://elaraproject.github.io/elara-publications/dist/paper-1.html">Paper 1 (web version)</a>
-  <a href="https://elaraproject.github.io/elara-publications/dist/paper-1.pdf">Paper 1 (PDF)</a>
-</details>
-<details>
-  <summary>2. Conducting simulations into the energy generation possibilities of black hole superradiance reactors</summary>
-  <a href="https://elaraproject.github.io/elara-publications/dist/paper-2.html">Paper 2 (web version)</a>
-  <a href="https://elaraproject.github.io/elara-publications/dist/paper-2.pdf">Paper 2 (PDF)</a>
-</details>
-<details>
-  <summary>3. A novel technique for space-based energy generation</summary>
-  <a href="https://elaraproject.github.io/elara-publications/dist/paper-3.html">Paper 3 (web version)</a>
-  <a href="https://elaraproject.github.io/elara-publications/dist/paper-3.pdf">Paper 3 (PDF)</a>
-</details>
+[Read our founding document, the Elara Charter](@/charter.md).
+
+## Our vision
+
+We believe in the spirit of collaboration and openness—that in working together, we will be able to accomplish far greater things than we could ourselves. And we want to pass our mission down to future generations, so that even if we can't finish something in our lifetimes, it will be finished one day.
+
+## Our research areas
+
+It includes research initiatives to build faster-than-light spaceships, black hole reactors, perform climate change mitigation, and develop technologies that will create a future we can only dream of today. But it is not limited to research. We welcome anyone who wants to build a better future with us, and through sharing resources, helping each other, and building an inclusive, welcoming community, we will make that future a reality.
+
+## Join us
+
+We welcome anyone, regardless of their educational background, to join the Project! There are no prerequisites or credentials necessary. To join, please see the [contributing page](@/contribute.md).

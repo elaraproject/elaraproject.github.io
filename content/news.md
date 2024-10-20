@@ -1,6 +1,6 @@
 +++
 title="News"
-description="All news updates for Project Elära"
+description="All news updates for Project Elara"
 +++
 
 # News

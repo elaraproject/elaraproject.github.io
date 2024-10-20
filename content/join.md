@@ -1,13 +1,13 @@
 +++
 title="Join"
-description="Join Project Elära, an international community of scientists, activists, and helpers, as we work with openness to better the world"
+description="Join Project Elara, an international community of scientists, activists, and helpers, as we work with openness to better the world"
 +++
 
-# Join Project Elära
+# Join Project Elara
 
 Do you want to make the world a better place? Do you want to meet like-minded people? If so, this might be the right place for you.
 
-Project Elära is in need of:
+Project Elara is in need of:
 
 - Web designers and developers to maintain documentation and the website
 - Artists and designers to make a design language for the project and create its artwork

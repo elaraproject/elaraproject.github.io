@@ -1,5 +1,5 @@
 # elaraproject.github.io
-Project Elära's website
+Project Elara's website
 
 ## Licensing info
 

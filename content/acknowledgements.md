@@ -1,11 +1,11 @@
 +++
 title="Acknowledgements"
-description="A list of acknowledgements and consulted work used by the Elära Project"
+description="A list of acknowledgements and consulted work used by the Elara Project"
 +++
 
 # Acknowledgements
 
-Below is a list of works that were consulted by the Elära Project.
+Below is a list of works that were consulted by the Elara Project.
 
 - <http://www.stat.ucla.edu/~ywu/linear.pdf>
 - <https://www.lehman.edu/faculty/dgaranin/Mathematical_Physics/Mathematical_physics-13-Partial_differential_equations.pdf>
