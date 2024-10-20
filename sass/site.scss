@@ -92,8 +92,18 @@ header {
 	}
 
 	h1 {
-		color: $tx-color-2;
+		width: fit-content;
+		margin: auto;
+		background-image: linear-gradient(90deg, #009f99 0%,#00899f 30%, #5d50b3 60%, #a86ae6 78%, #cb6ae6 92%);
+		background-size: 100%;
+		background-repeat: repeat;
+		text-fill-color: transparent;
 		font-size: 3.5rem;
+		background-clip: text;
+		-webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent; 
+	  -moz-background-clip: text;
+	  -moz-text-fill-color: transparent;
 	}
 
 	p {
@@ -101,6 +111,7 @@ header {
 		width: 32ch;
 		margin: auto;
 		line-height: 1.5;
+		color: rgba(255, 255, 255, 0.85);
 	}
 }
 
