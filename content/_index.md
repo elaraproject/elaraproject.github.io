@@ -34,7 +34,7 @@ However, the associated research has numerous other, more immediate uses. These 
 <br />
 <a href="research/pdf/elara-research-report-2024-latest.pdf" target="_blank">Research report</a> (PDF version)
 <br /><br />
-Note: the web versions are best viewed on a desktop computer, as they are not optimized for smaller screens.
+Note: the web versions are best viewed on a desktop computer, as they are not optimized for smaller screens. However, PDFs are not accessible due to the format itself, so the web version is recommended for a much better user experience otherwise.
 
 {% end %}
 
