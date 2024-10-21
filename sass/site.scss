@@ -163,6 +163,7 @@ main {
 
 	details {
 		margin: 2rem 0;
+		@include md { margin: 0; }
 		background: lighten($bg-color-1, 10%);
 		border-radius: 0.25rem;
 		font-size: 0.95rem;
@@ -176,6 +177,7 @@ main {
 	summary {
 		list-style-position: outside;
 		margin-left: 1.5rem;
+		@include sm { margin-left: 0.6rem; }
 		line-height: 1.5;
 		font-weight: bold;
 	}
