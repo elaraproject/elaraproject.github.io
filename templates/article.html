@@ -6,7 +6,7 @@
     <h1>{{ page.title }}</h2>
     <p class="news-info">{{ page.extra.author }} | {{ page.date | date(format="%B %d, %Y") }}</p>
     {{ page.content | safe }}
-    <a href="/" class="return-link">Back to home</a>
+    <a href="/news" class="return-link">Back to all news</a>
     <article>
 </main>
 {% endblock content %}

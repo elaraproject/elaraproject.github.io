@@ -16,7 +16,8 @@ body {
   margin: auto;
   background-color: $bg-color-1;
   width: 70%;
-  @include md { width: 87%; }
+  @include lg { width: 85%; }
+  @include md { width: 90%; }
   padding: 2rem 0;
   color: $tx-color-1;
 }
