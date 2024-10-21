@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <meta name="author" content="Project Elara contributors" />
   <meta name="description" 
-  		content="{%- if page.description %} {{ page.description }} {%- else %}Building an open-source community of researchers and scientists{%- endif %}" />
+  		content="{%- if page.description %} {{ page.description }} {%- elif page.summary %} {{ page.summary | striptags }} {%- elif section.description %} {{ section.description }} {%- else %}Building an open-source community of researchers and scientists{%- endif %}" />
   <!--OpenGraph metadata-->
   <meta property="og:title"
   		content="{%- if page.title %} {{ page.title }} {%- elif section.title %} {{ section.title }}  {%- else %}Project Elara{%- endif %}" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="{{ get_url(path="logo.png", trailing_slash=false) | safe }}" />
   <meta property="og:description"
-  		content="{%- if page.description %} {{ page.description }} {%- else %}Building an open-source community of researchers and scientists{%- endif %}" />
+  		content="{%- if page.description %} {{ page.description }}  {%- elif page.summary %} {{ page.summary | striptags }} {%- elif section.description %} {{ section.description }} {%- else %}Building an open-source community of researchers and scientists{%- endif %}" />
   <title>{%- if page.title %} {{ page.title }} {%- elif section.title %} {{ section.title }} {%- else %}Project Elara{%- endif %}</title>
   {% block css %}
   <link rel="stylesheet" href="{{ get_url(path="site.css", trailing_slash=false) | safe }}">
