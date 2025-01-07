@@ -32,6 +32,7 @@
   		</div>
 	  	<a href="/about">About</a>
 	  	<a href="/charter">Charter</a>
+	  	<a href="https://elaraproject.github.io/elara-handbook">Docs</a>
 	  	<a href="/news">News</a>
 	  	<a href="/contribute">Contribute</a>
 	  	<a href="https://github.com/elaraproject/">GitHub</a>
@@ -58,6 +59,16 @@
 	closemenu.onclick = function() {
 		menu.style.display = "none";
 	}
+
+	// also monitor for window resizes
+	// so that the desktop full-width menu shows again
+	// if the user resizes their screen to larger
+	window.addEventListener("resize", function(){
+		const mediaQuery = window.matchMedia('(min-width: 768px)');
+		if (mediaQuery.matches) {
+			menu.style.display = "flex";
+		}
+	})
   </script>
 </body>
 </html>
