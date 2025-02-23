@@ -6,7 +6,13 @@ subtitle = "A pledge to pass down the gift of hope for all future generations"
 
 ## About the project
 
-**Project Elara** (meaning<span id="footnote-name-ref"></span><sup><a href="#footnote-name">1</a></sup> _"hope"_) is a mission to create a just world and equitable world where everyone can live a quality life, created through the hard work of many generations.
+**Project Elara** (meaning<span id="footnote-name-ref"></span><sup><a href="#footnote-name">1</a></sup> _"hope"_) is a mission to **safeguard future generations** with the guarantee of a just and equitable world where everyone can live a quality life. It is a mission that will take the hard work of many generations and the contributions of countless people; but it is one we are dedicated to strive for.
+
+_The Earth is the only world known so far to harbor life. There is nowhere else, at least in the near future, to which our species could migrate..._
+
+_...[this knowledge should] underscore our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we've ever known._ 
+
+\- Carl Sagan, *[A Pale Blue Dot](https://www.planetary.org/worlds/pale-blue-dot)*
 
 ## Who we are
 
@@ -16,13 +22,13 @@ We are a **nonprofit organization for engineering and research** that strives to
 
 ## Our vision
 
-We believe in the spirit of collaboration and openness—that in working together, we will be able to accomplish far greater things than we could ourselves. And we want to pass our mission down to future generations, so that even if we can't finish something in our lifetimes, it will be finished one day.
+We believe in the spirit of collaboration and openness—that in working together, we could be able to accomplish far greater things than we could ourselves. And we want to pass our mission down to future generations, so that even if we can't finish something in our lifetimes, it can be finished one day.
 
 ## Our research areas
 
-While we intend to pursue additional areas of research with time, our current research focus is in the domain of **space power swarm technology**. Space power swarms have the potential to transform the world by providing a source of unlimited and perpetual energy, for all practical purposes. Research in this field is in its infancy, and a functioning space swarm is likely to take centuries to be realized, which is why we recognize this will be a multi-generational and international effort.
+While we intend to pursue additional areas of research with time, our current research focus is in the domain of **space power swarm technology**. Space power swarms have the potential to transform the world by providing a source of near-unlimited and long-lasting energy, for thousands, if not tens of thousands of years. Research in this field is still in its infancy, and a functioning space swarm is likely to take centuries to be realized, which is why we recognize this will be a multi-generational and international effort.
 
-However, the associated research has numerous other, more immediate uses. These include precision interferometry for probing gravitational waves, improved laser surgery and directed cancer tumor treatment, and providing power and internet in remote regions for emergency, humanitarian, and rescue operations. It is our hope that our research may contribute to making space power swarms possible one day.
+Our research does not simply target our primary goal of powering the world; it has numerous other, more immediate uses. These include precision interferometry for probing gravitational waves, improved laser surgery and directed cancer tumor treatment, and **most importantly**, providing power and internet in remote and underdeveloped regions for emergency, humanitarian, and rescue operations. It is our hope that our research may be able to change lives one day.
 
 {% expandable(desc="See here for technical descriptions of current research") %}
 
