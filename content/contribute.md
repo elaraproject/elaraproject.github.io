@@ -9,4 +9,4 @@ We welcome everyone to be part of Project Elara! Please contact any member in th
 
 However, for full membership in the Project, we ask that prospective members personally pledge to abide by the [Charter](@/charter.md) in oral or written form, and release a public statement confirming their pledge. We feel strongly about our mission and our ideals, and we want all our members to have the same commitment and dedication.
 
-The full list of existing contributors is available [here](@/contributors-list.md).
+[See full list of our members on this page](@/contributors-list.md)
