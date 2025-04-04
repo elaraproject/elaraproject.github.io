@@ -6,9 +6,9 @@ subtitle = "A team of engineers and scientists dedicated to developing not-for-p
 
 ## About the project
 
-**Project Elara** (meaning<span id="footnote-name-ref"></span><sup><a href="#footnote-name">1</a></sup> _"hope"_) is a grassroots organization dedicated to space-based energy technologies. We are scientists and engineers dedicated to open-sourcing science, and we believe that space-based energy technologies, done right, can usher in a peaceful, hopeful future.
+**Project Elara** (meaning<span id="footnote-name-ref"></span><sup><a href="#footnote-name">1</a></sup> _"hope"_) is a grassroots organization dedicated to space-based energy technologies. We are scientists and engineers dedicated to open-sourcing science, and we believe that space-based energy technologies, done right, can usher in a peaceful, hopeful future. 
 
-[Read our founding document, the Elara Charter](@/charter.md).
+[Interested? Find out how to be part of our mission.](@/contribute.md)
 
 ## Our vision
 
@@ -32,10 +32,7 @@ Note: the web versions are best viewed on a desktop computer, as they are not op
 
 {% end %}
 
-
-## Join us
-
-We welcome anyone interested, regardless of their educational background, to join the Project! There are no prerequisites or credentials necessary. To join, please see the [contributing page](@/contribute.md).
+[Read our founding document, the Elara Charter](@/charter.md).
 
 
 <p id="footnote-name"><a>1.</a> This is a constructed word, more on this in the Project's <a href="/about">about page</a>. <a href="#footnote-name-ref">Back &#8617;</a></p>
