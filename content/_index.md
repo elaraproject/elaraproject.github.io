@@ -12,11 +12,11 @@ subtitle = "A team of engineers and scientists dedicated to developing not-for-p
 
 ## Our vision
 
-On Earth, we are depleting the Earth's natural resources every moment to power our civilization, resources that will be exhausted one day. Space power swarms have the potential to transform the world by providing a source of near-unlimited energy to **power the world for thousands, if not tens of thousands of years**.
+On Earth, we are depleting the Earth's natural resources every moment to power our civilization, resources that will be exhausted one day. **Space-based power constellations** that harvest solar energy and bring it back to Earth have the potential to transform the world by providing a source of near-unlimited energy to **power the world for thousands, if not tens of thousands of years**.
 
-Space energy technology also has many secondary uses. These include precision interferometry for probing gravitational waves, improved laser surgery and directed cancer tumor treatment, and **most importantly**, providing power and internet in remote and underdeveloped regions for emergency, humanitarian, and rescue operations.
+Space power constellation technology also has many secondary uses. These include precision interferometry for probing gravitational waves, improved laser surgery and directed cancer tumor treatment, and **most importantly**, providing power and internet in remote and underdeveloped regions for emergency, humanitarian, and rescue operations.
 
-Unfortunately, research in this field is nowhere (yet) near enough to build a functioning space swarm, but we are passionate about this technology and want to be part of making it possible!
+Unfortunately, despite many years of research in this field, we are not (yet) near building a functioning space power constellation, but we are passionate about this technology and want to be part of making it possible!
 
 {% expandable(desc="See here for technical descriptions of current research") %}
 
