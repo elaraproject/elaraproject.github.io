@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns="http://www.w3.org/1999/xhtml" xmlns:x="https://www.texmacs.org/2002/extensions">
+  <head>
+    <title>Project Elara Technical Overview</title>
+    <meta content="TeXmacs 2.1.4" name="generator" charset="utf-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style type="text/css">
+      h5 { display: inline; padding-right: 1em }
+      h6 { display: inline; padding-right: 1em } table { border-collapse:
+      collapse } td { padding: 0.2em; vertical-align: baseline } dt { float:
+      left; min-width: 1.75em; text-align: right; padding-right: 0.75em;
+      font-weight: bold; } dd { margin-left: 2.75em; padding-bottom: 0.25em; }
+      dd p { padding-top: 0em; } .subsup { display: inline; vertical-align:
+      -0.2em } .subsup td { padding: 0px; text-align: left} .fraction {
+      display: inline; vertical-align: -0.8em } .fraction td { padding: 0px;
+      text-align: center } .wide { position: relative; margin-left: -0.4em }
+      .accent { position: relative; margin-left: -0.4em; top: -0.1em }
+      .title-block { width: 100%; text-align: center } .title-block p {
+      margin: 0px } .compact-block p { margin-top: 0px; margin-bottom: 0px }
+      .left-tab { text-align: left } .center-tab { text-align: center }
+      .balloon-anchor { border-bottom: 1px dotted #000000; outline: none;
+      cursor: help; position: relative; } .balloon-anchor [hidden] {
+      margin-left: -999em; position: absolute; display: none; }
+      .balloon-anchor: hover [hidden] { position: absolute; left: 1em; top:
+      2em; z-index: 99; margin-left: 0; width: 500px; display: inline-block; }
+      .balloon-body { } .ornament { border-width: 1px; border-style: solid;
+      border-color: black; display: inline-block; padding: 0.2em; } .right-tab
+      { float: right; position: relative; top: -1em; } .no-breaks {
+      white-space: nowrap; } .underline { text-decoration: underline; }
+      .overline { text-decoration: overline; } .strike-through {
+      text-decoration: line-through; } del { text-decoration: line-through
+      wavy red; } .fill-out { text-decoration: underline dotted; } 
+    </style>
+    <script language="javascript" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </head>
+  <body>
+    <table class="title-block" style="margin-bottom: 2em">
+      <tr>
+        <td><table class="title-block" style="margin-top: 0.5em; margin-bottom: 0.5em">
+          <tr>
+            <td><font style="font-size: 168.2%"><strong>Project Elara Technical
+            Overview</strong></font></td>
+          </tr>
+        </table><div class="compact-block" style="margin-top: 1em; margin-bottom: 1em">
+          <table class="title-block">
+            <tr>
+              <td><p style="margin-top: 0.5em; margin-bottom: 0.5em">
+                <div style="display: inline">
+                  <span style="margin-left: 0pt"></span>
+                </div>
+                <table style="display: inline-table; vertical-align: middle">
+                  <tbody><tr>
+                    <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em; width: 100%"><center>
+                      <p>
+                        <class style="font-variant: small-caps">by Jacky Song, Head of Project</class>
+                      </p>
+                    </center></td>
+                  </tr></tbody>
+                </table>
+              </p><p style="margin-top: 0.5em; margin-bottom: 0.5em">
+                <div style="display: inline">
+                  <span style="margin-left: 0pt"></span>
+                </div>
+                <table style="display: inline-table; vertical-align: middle">
+                  <tbody><tr>
+                    <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-bottom: 0em; padding-top: 0em; width: 100%"><center>
+                      <p>
+                        <em><em><class style="font-style: normal"><class style="font-variant: small-caps"><p>
+                          <b>On behalf of the</b> <b>Project Elara Team</b> 
+                        </p></class></class></em></em>
+                      </p>
+                      <p>
+                        Emilliano Vilchis, Milo Schnak,
+                      </p>
+                      <p>
+                        Charles Wang, Nicholas Schnorbus, Arnar Arnarsson, and
+                      </p>
+                      <p>
+                        Luke Monteiro 
+                      </p>
+                    </center></td>
+                  </tr></tbody>
+                </table>
+              </p></td>
+            </tr>
+          </table>
+        </div></td>
+      </tr>
+    </table>
+    <div style="margin-top: 2em; margin-bottom: 0.5em; margin-left: 60px; margin-right: 60px;">
+      <p style="margin-bottom: 0.5em; text-align: center;">
+        <font style="font-size: 84.1%"><strong>Abstract</strong></font>
+      </p>
+    </div>
+    <div class="abstract">
+      <p>
+        <font style="font-size: 84.1%">Project Elara is a nonprofit dedicated to creating an
+        unlimited-energy peaceful future over the course of many, many
+        lifetimes. Scientific research is an essential component of the
+        project and the basis of its technological work. In ensuring the full
+        benefits of the research is realized, the project publishes all
+        results and tools openly and works on a nonprofit basis&mdash;all work
+        within the Project is dedicated to the public domain. This technical
+        overview details the present research conducted by the Project.</font>
+      </p>
+    </div>
+    <h2 id="auto-1">1<span style="margin-left: 1em"></span>High-level overview<span style="margin-left: 1em"></span></h2>
+    <p>
+      Project Elara (&ldquo;<i>hope</i>&rdquo;) aims to conduct research and
+      eventually development of advanced technologies that we envision will
+      bring about a better future. Our priority research is in the realm of
+      space-based energy harvesting with large-scale solar power swarms.
+      Achieving this capability, if done carefully and correctly, would
+      provide a stable, lasting energy source orders of magnitude more
+      powerful than any contemporary or near-future capabilities. Such a
+      system opens the doorway to engineering and construction on a stellar
+      scale, including mass interplanetary travel, powering space habitats,
+      and even possibly the propulsion of interstellar lightsail arks. More
+      importantly, it allows for the possibility of a truly peaceful and
+      equitable future.
+    </p>
+    <p>
+      The development of such a system is not solely for the purpose of
+      space-based power. Various near-term technologies would also be greatly
+      benefitted by the successful development of this technology. To simply
+      name a few, the benefits could include improved internet as well as
+      greater power equity and accessibility for rural communities and
+      developing nations, improved satellite communications, improvements in
+      laser surgery, high-precision optics for science experiments such as
+      gravitational wave interferometry, and improvements in inertial
+      confinement fusion.
+    </p>
+    <p>
+      However, it is no doubt that such an undertaking must begin with small
+      initial steps and will require countless contributions over generations.
+      Thus the present work of the Project is incremental and small-scale,
+      with the hope of achieving more with time. We are focused on several key
+      technologies that are critical to making space power swarms a
+      possibility: high-gain extremely-long-distance microwave transmission,
+      persistent space-ground communication, and safe wireless power transfer
+      at high power. These are the areas of our immediate computational
+      research.
+    </p>
+    <h2 id="auto-2">2<span style="margin-left: 1em"></span>Technical description of research<span style="margin-left: 1em"></span></h2>
+    <p>
+      Our first research milestone is to achieve accurate theoretical and
+      computational modelling of long-distance power transmission. Both
+      analytical and numerical methods are used for analyzing electromagnetic
+      energy transport, and to investigate how high-gain, all-weather
+      transmission may be achieved, with specific emphasis on precision
+      line-of-sight transmission. 
+    </p>
+    <p>
+      Initial research has produced a proof-of-concept model that has been
+      used in computational electromagnetics simulations. These simulations
+      use finite-element methods to obtain numerical solutions to the
+      Helmholtz equation \(\nabla^2  \textbf{E} + k^2  \textbf{E} = 0\), and
+      finite-difference methods to perform validation testing. While the model
+      is proof-of-concept and experimental, it represents a key breakthrough
+      and a stepping stone towards a complete, consistent, research-ready
+      solver.
+    </p>
+    <div style="margin-top: 1em; margin-bottom: 1em">
+      <table style="width: 100%">
+        <tbody><tr>
+          <td style="text-align: center; padding-left: 0em; padding-right: 0em"><img src="elara-research-report-2024-latest-4.png" style="margin-left: 0em; margin-bottom: 0em; margin-right: 0em; margin-top: 0em; vertical-align: 0em; height: 14.5581090909091em"></img><table style="display: inline-table; vertical-align: middle">
+            <tbody><tr>
+              <td></td>
+            </tr></tbody>
+          </table><img src="elara-research-report-2024-latest-5.png" style="margin-left: 0em; margin-bottom: 0em; margin-right: 0em; margin-top: 0em; vertical-align: 0em; height: 14.7211393939394em"></img></td>
+        </tr><tr>
+          <td style="text-align: center; padding-left: 0em; padding-right: 0em; height: 0.5em"></td>
+        </tr><tr>
+          <td style="text-align: center; padding-left: 0em; padding-right: 0em; padding-left: 1.5em; padding-right: 1.5em"><div class="caption">
+            <font style="font-size: 84.1%"><p>
+              <b>Table 1. </b><a id="auto-3"></a>Computational simulations of wave
+              propagation with the Helmholtz equation
+            </p></font>
+          </div></td>
+        </tr></tbody>
+      </table>
+    </div>
+    <p>
+      Prospective research consists of the refinement of this model to produce
+      an improved model ready for producing publication-quality results. The
+      improved model is expected to take into account effects that were
+      previously ignored, such as atmospheric attenuation via the ITU-R
+      P.676-13 model and transmission from a moving orbital
+      platform via numerical integration with a hybrid GOCE6-GGM03-EGM2008
+      model. Furthermore, unlike the proof-of-concept model, the improved
+      model will be a multiphysics model that integrates more (eventually, all) aspects of the
+      system.
+    </p>
+    <p>
+      More computational simulations will allow fine-tuning the design of the
+      concept space swarm and in turn be used to make more accurate
+      simulations of the system. This iterative process is expected to
+      continue for a significant portion of time, until sufficient
+      computational testing has yielded a highly-detailed design that can be
+      built into functional prototypes. Artificial vacuum testing and
+      atmospheric testing is then expected to progress, with a further
+      test-design-simulation cycle to continue adding refinements. This
+      process is expected to continue until design finalization. 
+    </p>
+    <h2 id="auto-4">3<span style="margin-left: 1em"></span>Distinctive features of the project<span
+    style="margin-left: 1em"></span></h2>
+    <p>
+      Given its ambitious aims, the Project is not meant to be a short-term
+      project, but one that will span across generations. The longevity of the
+      Project is safeguarded by its open-source nature. All published
+      documentation of the Project is freely available online, and eventually,
+      is projected to be made available, again at no cost, in book form. The
+      loss of the project organization or of its team would not constitute the
+      end of the Project. The project is deliberately designed such that it
+      can be picked up and continued at any point from its encyclopedic
+      handbook, as well as further books that contain fully-commented source
+      code, design specifications, and blueprints. As mentioned, all of its
+      books and documentation are fully dedicated to the public domain.
+    </p>
+    <h2 id="auto-5">4<span style="margin-left: 1em"></span>Team members<span style="margin-left: 1em"></span></h2>
+    <p>
+      The team consists of co-researchers Emilliano Vilchis, Arnar Arnarsson,
+      and Nicholas Schnorbus, general advisor Charles Wang, engineering
+      advisor Milo Schnack, and physics advisor Luke Monteiro, with support
+      from Professor Peter Persans, Professor Trevor Rhone, and Professor
+      Heidi Newberg at Rensselaer Polytechnic. We welcome anyone to join and
+      have a Discord channel as well as informal meetings for discussions.
+      There is no bar to entry, nor any necessary qualifications required.
+    </p>
+    <h2 id="auto-6">5<span style="margin-left: 1em"></span>Further information<span style="margin-left: 1em"></span></h2>
+    <p>
+      The project website at <a href="https://elaraproject.github.io/">https://elaraproject.github.io/</a>
+      and GitHub at <a href="https://github.com/elaraproject">https://github.com/elaraproject</a>
+      provide more information about the project and an opportunity for anyone
+      interested to learn more. Reach out at <a href="elaraproject@gmail.com">elaraproject@gmail.com</a>
+      for official inquiries. We would also be glad to take meeting requests,
+      virtual or in-person.
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>

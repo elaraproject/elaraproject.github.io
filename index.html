@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="author" content="Project Elara contributors" />
+  <meta name="description" 
+  		content="Building an open-source community of researchers and scientists" />
+  <!--OpenGraph metadata-->
+  <meta property="og:title"
+  		content=" Project Elara" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://elaraproject.github.io/logo.png" />
+  <meta property="og:description"
+  		content="Building an open-source community of researchers and scientists" />
+  <title> Project Elara</title>
+  
+  <link rel="stylesheet" href="https://elaraproject.github.io/site.css">
+  
+
+</head>
+<body id="index">
+  <nav>
+  	<a href="/">Home</a>
+  	<div id="menu">
+  		<div id="closemenu">
+  			<p>Close</p>
+  			<div>
+  				<!--Close icon-->
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+  			</div>
+  		</div>
+	  	<a href="/about">About</a>
+	  	<a href="/charter">Charter</a>
+	  	<a href="https://elaraproject.github.io/elara-handbook">Docs</a>
+	  	<a href="/news">News</a>
+	  	<a href="/contribute">Contribute</a>
+	  	<a href="https://github.com/elaraproject/">GitHub</a>
+  	</div>
+  	<div id="menu-hamburger">
+  		<p>Menu</p>
+  		<!--Hamburger menu icon-->
+  		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1)"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
+  	</div>
+  </nav>
+  
+<header>
+    <h1>Project Elara</h1> 
+  	<p>A team of engineers and scientists dedicated to developing not-for-profit space-based energy technologies</p>
+</header>
+
+<main>
+  	<h2 id="about-the-project">About the project</h2>
+<p><strong>Project Elara</strong> (meaning<span id="footnote-name-ref"></span><sup><a href="#footnote-name">1</a></sup> <em>&quot;hope&quot;</em>) is a grassroots organization dedicated to space-based energy technologies. We are scientists and engineers dedicated to open-sourcing science, and we believe that space-based energy technologies, done right, can usher in a peaceful, hopeful future. </p>
+<p><a href="https://elaraproject.github.io/contribute/">Interested? Find out how to be part of our mission.</a></p>
+<h2 id="our-vision">Our vision</h2>
+<p>On Earth, we are depleting the Earth's natural resources every moment to power our civilization, resources that will be exhausted one day. <strong>Space-based power constellations</strong> that harvest solar energy and bring it back to Earth have the potential to transform the world by providing a source of near-unlimited energy to <strong>power the world for thousands, if not tens of thousands of years</strong>.</p>
+<p>Space power constellation technology also has many secondary uses. These include precision interferometry for probing gravitational waves, improved laser surgery and directed cancer tumor treatment, and <strong>most importantly</strong>, providing power and internet in remote and underdeveloped regions for emergency, humanitarian, and rescue operations.</p>
+<p>Unfortunately, despite many years of research in this field, we are not (yet) near building a functioning space power constellation, but we are passionate about this technology and want to be part of making it possible!</p>
+<details>
+<summary>See here for technical descriptions of current research</summary>
+	<div><a href="research/html/elara-overview-2024-latest.html" target="_blank">Technical overview</a> (accessible web version)
+<br />
+<a href="research/pdf/elara-overview-2024-latest.pdf" target="_blank">Technical overview</a> (PDF version)
+<br /><br />
+<a href="research/html/elara-research-report-2024-latest.html" target="_blank">Research report</a>  (accessible web version)
+<br />
+<a href="research/pdf/elara-research-report-2024-latest.pdf" target="_blank">Research report</a> (PDF version)
+<br /><br />
+Note: the web versions are best viewed on a desktop computer, as they are not optimized for smaller screens. However, PDFs are not accessible due to the format itself, so the web version is recommended for a much better user experience otherwise.</div>
+</details>
+<p><a href="https://elaraproject.github.io/charter/">Read our founding document, the Elara Charter</a>.</p>
+<p id="footnote-name"><a>1.</a> This is a constructed word, more on this in the Project's <a href="/about">about page</a>. <a href="#footnote-name-ref">Back &#8617;</a></p>
+<p><a href="#index">Go back to top</a></p>
+
+</main>
+
+
+  <script>
+  	
+	const closemenu = document.getElementById("closemenu");
+	const hamburgermenu = document.getElementById("menu-hamburger");
+	const menu = document.getElementById("menu");
+
+	hamburgermenu.onclick = function() {
+		menu.style.display = "flex";
+	}
+
+	closemenu.onclick = function() {
+		menu.style.display = "none";
+	}
+
+	// also monitor for window resizes
+	// so that the desktop full-width menu shows again
+	// if the user resizes their screen to larger
+	window.addEventListener("resize", function(){
+		const mediaQuery = window.matchMedia('(min-width: 768px)');
+		if (mediaQuery.matches) {
+			menu.style.display = "flex";
+		}
+	})
+  </script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="author" content="Project Elara contributors" />
+  <meta name="description" 
+  		content=" All news updates for Project Elara" />
+  <!--OpenGraph metadata-->
+  <meta property="og:title"
+  		content=" News" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://elaraproject.github.io/logo.png" />
+  <meta property="og:description"
+  		content=" All news updates for Project Elara" />
+  <title> News</title>
+  
+  <link rel="stylesheet" href="https://elaraproject.github.io/site.css">
+  
+
+</head>
+<body id="index">
+  <nav>
+  	<a href="/">Home</a>
+  	<div id="menu">
+  		<div id="closemenu">
+  			<p>Close</p>
+  			<div>
+  				<!--Close icon-->
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+  			</div>
+  		</div>
+	  	<a href="/about">About</a>
+	  	<a href="/charter">Charter</a>
+	  	<a href="https://elaraproject.github.io/elara-handbook">Docs</a>
+	  	<a href="/news">News</a>
+	  	<a href="/contribute">Contribute</a>
+	  	<a href="https://github.com/elaraproject/">GitHub</a>
+  	</div>
+  	<div id="menu-hamburger">
+  		<p>Menu</p>
+  		<!--Hamburger menu icon-->
+  		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1)"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
+  	</div>
+  </nav>
+  
+
+<main>
+  <article>
+   <h1 class="news-hero">News</h1>
+   
+     <section class="news-section">
+       <strong class="news-header">Resolution 2025-04-11.1</strong>
+       <p class="summary"><p><em>A resolution for ensuring the financial sustainability of the Project and committing ourselves to affordability</em></p>
+</p>
+       <a href="https://elaraproject.github.io/news/resolution-2025-04-11-1/">Read more...</a>
+     </section>
+   
+     <section class="news-section">
+       <strong class="news-header">A recap of progress in 2024</strong>
+       <p class="summary"><p>With the end of the year approaching, I thought it would be a good time to reflect on the progress and gains we made throughout the year.</p>
+</p>
+       <a href="https://elaraproject.github.io/news/update-10-19-2024/">Read more...</a>
+     </section>
+   
+   <article>
+</main>
+
+
+  <script>
+  	
+	const closemenu = document.getElementById("closemenu");
+	const hamburgermenu = document.getElementById("menu-hamburger");
+	const menu = document.getElementById("menu");
+
+	hamburgermenu.onclick = function() {
+		menu.style.display = "flex";
+	}
+
+	closemenu.onclick = function() {
+		menu.style.display = "none";
+	}
+
+	// also monitor for window resizes
+	// so that the desktop full-width menu shows again
+	// if the user resizes their screen to larger
+	window.addEventListener("resize", function(){
+		const mediaQuery = window.matchMedia('(min-width: 768px)');
+		if (mediaQuery.matches) {
+			menu.style.display = "flex";
+		}
+	})
+  </script>
+</body>
+</html>
