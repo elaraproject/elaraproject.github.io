@@ -13,9 +13,34 @@
   <meta property="og:image" content="{{ get_url(path="logo.png", trailing_slash=false) | safe }}" />
   <meta property="og:description"
   		content="{%- if page.description %} {{ page.description }}  {%- elif page.summary %} {{ page.summary | striptags }} {%- elif section.description %} {{ section.description }} {%- else %}Building an open-source community of researchers and scientists{%- endif %}" />
+
+  <!-- Site title -->
   <title>{%- if page.title %} {{ page.title }} {%- elif section.title %} {{ section.title }} {%- else %}Project Elara{%- endif %}</title>
+
+  {% block favicon %}
+  <!-- Generated with https://favycon.vercel.app/ -->
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ get_url(path='favicons/favicon-57x57.png', trailing_slash=false) }}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ get_url(path='favicons/favicon-60x60.png', trailing_slash=false) }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ get_url(path='favicons/favicon-72x72.png', trailing_slash=false) }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ get_url(path='favicons/favicon-76x76.png', trailing_slash=false) }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ get_url(path='favicons/favicon-114x114.png', trailing_slash=false) }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ get_url(path='favicons/favicon-120x120.png', trailing_slash=false) }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ get_url(path='favicons/favicon-144x144.png', trailing_slash=false) }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ get_url(path='favicons/favicon-152x152.png', trailing_slash=false) }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ get_url(path='favicons/favicon-180x180.png', trailing_slash=false) }}">
+    <link rel="icon" type="image/svg+xml" href="{{ get_url(path='favicons/favicon.svg', trailing_slash=false) }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ get_url(path='favicons/favicon-16x16.png', trailing_slash=false) }} ">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ get_url(path='favicons/favicon-32x32.png', trailing_slash=false) }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ get_url(path='favicons/favicon-96x96.png', trailing_slash=false) }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ get_url(path='favicons/favicon-192x192.png', trailing_slash=false) }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ get_url(path='favicons/favicon.ico', trailing_slash=false) }}">
+    <link rel="icon" type="image/x-icon" href="{{ get_url(path='favicons/favicon.ico', trailing_slash=false) }}">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="{{ get_url(path='favicons/favicon-144x144.png', trailing_slash=false) }}">
+    <meta name="msapplication-config" content="{{ get_url(path='favicons/browserconfig.xml', trailing_slash=false) }}">
+  {% endblock favicon %}
   {% block css %}
-  <link rel="stylesheet" href="{{ get_url(path="site.css", trailing_slash=false) | safe }}">
+    <link rel="stylesheet" href="{{ get_url(path="site.css", trailing_slash=false) | safe }}">
   {% endblock css %}
 
 </head>
