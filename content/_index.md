@@ -16,19 +16,14 @@ On Earth, we are depleting the Earth's natural resources every moment to power o
 
 Space power constellation technology also has many secondary uses. These include precision interferometry for probing gravitational waves, improved laser surgery and directed cancer tumor treatment, and **most importantly**, providing power and internet in remote and underdeveloped regions for emergency, humanitarian, and rescue operations.
 
-Unfortunately, despite many years of research in this field, we are not (yet) near building a functioning space power constellation, but we are passionate about this technology and want to be part of making it possible!
+We are not (yet) near building a functioning space power constellation, but we are passionate about this technology and want to be part of making it possible!
 
-{% expandable(desc="See here for technical descriptions of current research") %}
+{% expandable(desc="See here for latest technical reports and an overview of current research") %}
 
-<a href="research/html/elara-overview-2024-latest.html" target="_blank">Technical overview</a> (accessible web version)
+<a href="https://elaraproject.github.io/elara-technical-overview/" target="_blank">Technical overview</a>
 <br />
-<a href="research/pdf/elara-overview-2024-latest.pdf" target="_blank">Technical overview</a> (PDF version)
-<br /><br />
-<a href="research/html/elara-research-report-2024-latest.html" target="_blank">Research report</a>  (accessible web version)
+<a href="https://elaraproject.github.io/2024-research-report/" target="_blank">Latest yearly research report</a>
 <br />
-<a href="research/pdf/elara-research-report-2024-latest.pdf" target="_blank">Research report</a> (PDF version)
-<br /><br />
-Note: the web versions are best viewed on a desktop computer, as they are not optimized for smaller screens. However, PDFs are not accessible due to the format itself, so the web version is recommended for a much better user experience otherwise.
 
 {% end %}
 
