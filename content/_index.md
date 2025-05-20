@@ -18,17 +18,9 @@ Space power constellation technology also has many secondary uses. These include
 
 We are not (yet) near building a functioning space power constellation, but we are passionate about this technology and want to be part of making it possible!
 
-{% expandable(desc="See here for latest technical reports and an overview of current research") %}
-
-<a href="https://elaraproject.github.io/elara-technical-overview/" target="_blank">Technical overview</a>
-<br />
-<a href="https://elaraproject.github.io/2024-research-report/" target="_blank">Latest yearly research report</a>
-<br />
-
-{% end %}
-
-[Read our founding document, the Elara Charter](@/charter.md).
-
+<button class="btn bg-accent">
+	<a href="https://elaraproject.github.io/2024-research-report/">Read our latest research report</a>
+</button>
 
 <p id="footnote-name"><a>1.</a> This is a constructed word, more on this in the Project's <a href="/about">about page</a>. <a href="#footnote-name-ref">Back &#8617;</a></p>
 

@@ -1,8 +1,10 @@
 @import "screens";
 
 $bg-color-1: #181B21;
+$bg-color-2: #044176; // accent color
+// $bg-color-3: #cb6ae6;
 $tx-color-1: rgba(255, 255, 255, 0.8);
-$tx-color-2: #009F99; // accent color
+$tx-color-2: #009F99; // also accent color
 
 * {
     margin: 0;
@@ -14,7 +16,6 @@ body {
   display: block;
   font-family: "Inter", sans-serif;
   margin: auto;
-  background-color: $bg-color-1;
   width: 70%;
   @include lg { width: 85%; }
   @include md { width: 90%; }
@@ -117,6 +118,12 @@ header {
 		line-height: 1.5;
 		color: rgba(255, 255, 255, 0.85);
 	}
+
+	// this customizes the default button styling
+	// from the .btn utility class
+	button {
+		margin: auto;
+	}
 }
 
 main {
@@ -212,4 +219,30 @@ main {
     .news-section {
         margin-bottom: 2rem;
     }
+}
+
+// utility classes
+
+.btn {
+	display: block;
+	width: fit-content;
+	border: none; // we use outline instead for a11y
+	padding: 0.7rem 1rem;
+	border-radius: 0.25rem;
+
+	a {
+		text-decoration: none;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+}
+
+.bg-standard {
+	background: $bg-color-1;
+}
+
+.bg-accent {
+	background: $bg-color-2;
 }
