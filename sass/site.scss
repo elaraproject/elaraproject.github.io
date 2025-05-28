@@ -113,7 +113,7 @@ header {
 
 	p {
 		font-size: 1.1rem;
-		width: 50ch;
+		max-width: 50ch;
 		margin: auto;
 		line-height: 1.5;
 		color: rgba(255, 255, 255, 0.85);
@@ -123,6 +123,10 @@ header {
 	// from the .btn utility class
 	button {
 		margin: auto;
+	}
+
+	button a {
+		font-size: 0.9rem;
 	}
 }
 
