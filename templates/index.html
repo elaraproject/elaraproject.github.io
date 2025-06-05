@@ -4,9 +4,14 @@
 <header>
     <h1>{{ section.title }}</h1> 
   	<p>{{ section.extra.subtitle }}</p>
-    <button class="btn bg-accent">
-        <a href="https://elaraproject.github.io/elara-technical-overview/">Read our technical overview</a>
-    </button>
+    <div class="header-btns-container">
+        <button class="btn bg-accent">
+            <a href="{{ get_url(path='intro-elara-poster.pdf') }}">Quick guide</a>
+        </button>
+        <button class="btn outline-highlight">
+            <a href="https://elaraproject.github.io/elara-technical-overview/" class="text-highlight">Technical overview</a>
+        </button>
+    </div>
 </header>
 
 <main>
