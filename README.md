@@ -1,6 +1,6 @@
 # Project Elara website
 
-This is Project Elara's website, the most up-to-date and authoritative source of information about Project Elara. This includes the latest research papers and assets and project announcements and news.
+This is Project Elara's website, the most up-to-date and authoritative source of information about Project Elara. This includes links to the latest research papers and assets, project announcements and news, as well as guides to our work.
 
 ## Getting started
 
@@ -14,7 +14,7 @@ This should open a local developer server to live-reload the website.
 
 ## Developer information
 
-The site is built on templates in the `templates/` folder. The pages themselves are in `content/` with a few exceptions (such as the research papers and other hosted assets) in the `static/` folder. Each page is markdown with some pages including a bit of HTML where it's necessary. 
+The site is built on templates in the `templates/` folder. The pages themselves are in `content/` with a few exceptions (such posters, our logo, and icons) in the `static/` folder. Each page is markdown with some pages including a bit of HTML where it's necessary. 
 
 Page variables are specified in YAML format like so:
 
@@ -37,4 +37,4 @@ The variables include the following:
 
 ## Licensing info
 
-Icons are from [boxicons](https://boxicons.com).
+This website is released to the public domain. You may freely use it for **any purpose**.
