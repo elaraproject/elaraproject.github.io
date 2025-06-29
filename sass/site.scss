@@ -5,6 +5,7 @@ $bg-color-2: #044176; // accent color
 $bg-color-3: #a952c1; // also accent color
 $tx-color-1: rgba(255, 255, 255, 0.8);
 $tx-color-2: #009F99; // also accent color
+$font-sans: "Inter", system-ui, "Helvetica Neue", "Open Sans", "Cantarell", "Avenir", sans-serif;
 
 * {
     margin: 0;
@@ -14,7 +15,7 @@ $tx-color-2: #009F99; // also accent color
 
 body {
   display: block;
-  font-family: "Inter", sans-serif;
+  font-family: $font-sans;
   margin: auto;
   width: 70%;
   @include lg { width: 85%; }
@@ -148,6 +149,10 @@ main {
 		margin: 1rem 0;
 	}
 
+	#footnote-name {
+		font-size: small;
+	}
+
 	article {
 		padding: 3rem 0;
 
@@ -237,6 +242,7 @@ main {
 
 .btn {
 	display: block;
+	font-family: inherit;
 	width: fit-content;
 	border: none; // we use outline instead for a11y
 	padding: 0.7rem 1rem;
