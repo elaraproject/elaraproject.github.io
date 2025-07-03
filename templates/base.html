@@ -3,97 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="refresh" content="0; url=https://elaraproject.org/" />
   <meta name="author" content="Project Elara contributors" />
   <meta name="description" 
-  		content="{%- if page.description %} {{ page.description }} {%- elif page.summary %} {{ page.summary | striptags }} {%- elif section.description %} {{ section.description }} {%- else %}Building an open-source community of researchers and scientists{%- endif %}" />
+  		content="This site is no longer updated. Please see our new site at https://elaraproject.org" />
   <!--OpenGraph metadata-->
   <meta property="og:title"
-  		content="{%- if page.title %} {{ page.title }} {%- elif section.title %} {{ section.title }}  {%- else %}Project Elara{%- endif %}" />
+  		content="Project Elara Legacy Website" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="{{ get_url(path="logo.png", trailing_slash=false) | safe }}" />
   <meta property="og:description"
-  		content="{%- if page.description %} {{ page.description }}  {%- elif page.summary %} {{ page.summary | striptags }} {%- elif section.description %} {{ section.description }} {%- else %}Building an open-source community of researchers and scientists{%- endif %}" />
+  		content="This site is no longer updated. Please see our new site at https://elaraproject.org" />
 
-  <!-- Site title -->
-  <title>{%- if page.title %} {{ page.title }} {%- elif section.title %} {{ section.title }} {%- else %}Project Elara{%- endif %}</title>
-
-  {% block favicon %}
-  <!-- Generated with https://favycon.vercel.app/ -->
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ get_url(path='favicons/favicon-57x57.png', trailing_slash=false) }}">
-    <link rel="apple-touch-icon" sizes="60x60" href="{{ get_url(path='favicons/favicon-60x60.png', trailing_slash=false) }}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ get_url(path='favicons/favicon-72x72.png', trailing_slash=false) }}">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ get_url(path='favicons/favicon-76x76.png', trailing_slash=false) }}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ get_url(path='favicons/favicon-114x114.png', trailing_slash=false) }}">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ get_url(path='favicons/favicon-120x120.png', trailing_slash=false) }}">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ get_url(path='favicons/favicon-144x144.png', trailing_slash=false) }}">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ get_url(path='favicons/favicon-152x152.png', trailing_slash=false) }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ get_url(path='favicons/favicon-180x180.png', trailing_slash=false) }}">
-    <link rel="icon" type="image/svg+xml" href="{{ get_url(path='favicons/favicon.svg', trailing_slash=false) }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ get_url(path='favicons/favicon-16x16.png', trailing_slash=false) }} ">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ get_url(path='favicons/favicon-32x32.png', trailing_slash=false) }}">
-    <link rel="icon" type="image/png" sizes="96x96" href="{{ get_url(path='favicons/favicon-96x96.png', trailing_slash=false) }}">
-    <link rel="icon" type="image/png" sizes="192x192" href="{{ get_url(path='favicons/favicon-192x192.png', trailing_slash=false) }}">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ get_url(path='favicons/favicon.ico', trailing_slash=false) }}">
-    <link rel="icon" type="image/x-icon" href="{{ get_url(path='favicons/favicon.ico', trailing_slash=false) }}">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="{{ get_url(path='favicons/favicon-144x144.png', trailing_slash=false) }}">
-    <meta name="msapplication-config" content="{{ get_url(path='favicons/browserconfig.xml', trailing_slash=false) }}">
-  {% endblock favicon %}
   {% block css %}
     <link rel="stylesheet" href="{{ get_url(path="site.css", trailing_slash=false) | safe }}">
   {% endblock css %}
 
+  <!-- Site title -->
+  <title>Project Elara Legacy Website</title>
+
 </head>
-<body id="index" class="bg-standard">
-  <nav>
-  	<a href="/">Home</a>
-  	<div id="menu">
-  		<div id="closemenu">
-  			<p>Close</p>
-  			<div>
-  				<!--Close icon-->
-				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
-  			</div>
-  		</div>
-	  	<a href="/about">About</a>
-	  	<a href="/charter">Charter</a>
-	  	<a href="https://elaraproject.github.io/elara-handbook">Handbook</a>
-	  	<a href="/news">News</a>
-	  	<a href="/contribute">Contribute</a>
-	  	<a href="https://github.com/elaraproject/">GitHub</a>
-  	</div>
-  	<div id="menu-hamburger">
-  		<p>Menu</p>
-  		<!--Hamburger menu icon-->
-  		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1)"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
-  	</div>
-  </nav>
-  {% block content %}
-  {% endblock %}
-
-  <script>
-  	
-	const closemenu = document.getElementById("closemenu");
-	const hamburgermenu = document.getElementById("menu-hamburger");
-	const menu = document.getElementById("menu");
-
-	hamburgermenu.onclick = function() {
-		menu.style.display = "flex";
-	}
-
-	closemenu.onclick = function() {
-		menu.style.display = "none";
-	}
-
-	// also monitor for window resizes
-	// so that the desktop full-width menu shows again
-	// if the user resizes their screen to larger
-	window.addEventListener("resize", function(){
-		const mediaQuery = window.matchMedia('(min-width: 768px)');
-		if (mediaQuery.matches) {
-			menu.style.display = "flex";
-		}
-	})
-  </script>
+<body class="bg-standard">
+	<p>We have switched to a new site and this site is no longer maintained. You should be redirected automatically to the new site. If not, please head to <a href="https://elaraproject.org">elaraproject.org</a>.
+	</p>
 </body>
 </html>

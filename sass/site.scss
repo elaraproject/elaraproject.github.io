@@ -1,279 +1,29 @@
 @import "screens";
 
 $bg-color-1: #181B21;
-$bg-color-2: #044176; // accent color
-$bg-color-3: #a952c1; // also accent color
 $tx-color-1: rgba(255, 255, 255, 0.8);
 $tx-color-2: #009F99; // also accent color
 $font-sans: "Inter", system-ui, "Helvetica Neue", "Open Sans", "Cantarell", "Avenir", sans-serif;
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
   display: block;
   font-family: $font-sans;
-  margin: auto;
-  width: 70%;
-  @include lg { width: 85%; }
-  @include md { width: 90%; }
-  padding: 2rem 0;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 3.5rem;
+  box-sizing: border-box;
   color: $tx-color-1;
+  background: $bg-color-1;
 }
 
 a {
-	text-decoration: none;
-	color: $tx-color-1;
+  text-decoration: none;
+  color: $tx-color-2;
 }
 
-a:hover, a:focus {
-	text-decoration: underline
-}
-
-nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-
-	a {
-		font-size: 0.9rem;
-	}
-	
-	div {
-		display: flex;
-		flex-direction: row;
-		align-content: center;
-		column-gap: 2rem;
-	}
-
-	svg {
-		margin-bottom: 0.2rem;
-		margin-left: -0.8rem;
-	}
-
-	#menu {
-		@include md {
-			display: none;
-			flex-direction: column;
-			row-gap: 1rem;
-			height: 100%;
-			z-index: 2;
-			position: absolute;
-			top: 0;
-			right: 0;
-			padding: 3rem 1.5rem;
-			background: lighten($bg-color-1, 10%);
-		}
-
-		#closemenu {
-			// note: display setting is synchronized
-			// with javascript at the end of
-			// templates/base.html
-			display: none;
-			@include md { display: flex; }
-			flex-direction: row;
-			align-items: center;
-		}
-	}
-
-	#menu-hamburger {
-		display: none;
-		@include md { display: flex; }
-		align-items: center;	
-	}
-}
-
-header {
-	display: flex;
-	flex-direction: column;
-	margin-top: 8rem;
-	margin-bottom: 5rem;
-	row-gap: 1rem;
-
-	h1, p {
-		text-align: center;
-	}
-
-	h1 {
-		width: fit-content;
-		margin: auto;
-		background-image: linear-gradient(90deg, #009f99 0%,#00899f 30%, #5d50b3 60%, #a86ae6 78%, #cb6ae6 92%);
-		background-size: 100%;
-		background-repeat: repeat;
-		text-fill-color: transparent;
-		font-size: 3.5rem;
-		background-clip: text;
-		-webkit-background-clip: text;
-	  -webkit-text-fill-color: transparent; 
-	  -moz-background-clip: text;
-	  -moz-text-fill-color: transparent;
-	}
-
-	p {
-		font-size: 1.1rem;
-		max-width: 50ch;
-		margin: auto;
-		line-height: 1.5;
-		color: rgba(255, 255, 255, 0.85);
-	}
-
-    .header-btns-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        @include sm { flex-direction: column; }
-    }
-
-	// this customizes the default button styling
-	// from the .btn utility class
-	button {
-		margin: auto 0.5rem;
-		@include sm { margin: 0.5rem auto; } 
-	}
-
-	button a {
-		font-size: 0.9rem;
-	}
-}
-
-main {
-	width: 70%;
-	@include md { width: 85%; }
-	@include sm { width: 95%; }
-	margin: auto;
-
-	p {
-		margin: 1rem 0;
-	}
-
-	#footnote-name {
-		font-size: small;
-	}
-
-	article {
-		padding: 3rem 0;
-
-		blockquote {
-			padding: 0.25rem 2rem;
-			border-left: 5px solid rgba(255, 255, 255, 0.3);
-		}
-
-		p {
-			margin: 1rem 0;
-		}
-
-		h1 {
-			font-size: 2.2rem;
-		}
-
-		h2 {
-			font-size: 1.8rem;
-		}
-
-		h3 {
-			font-size: 1.4rem;
-		}
-	}
-
-	h2, h3, h4, h5, article h1 {
-	    margin: 1.5rem 0;
-	    line-height: 1.2;
-	    color: $tx-color-2;
-	}
-
-	p, ul {
-		line-height: 1.5;
-	}
-
-	ul {
-		// margin-left: 1.5rem;
-		margin: 1rem 0 1rem 1.5rem;
-	}
-
-	details {
-		margin: 2rem 0;
-		@include md { margin: 0; }
-		background: lighten($bg-color-1, 10%);
-		border-radius: 0.25rem;
-		font-size: 0.95rem;
-		padding: 1.5rem 1rem;
-	}
-
-	details div {
-		margin: 0.5rem 0 0 1rem;
-	}
-
-	summary {
-		list-style-position: outside;
-		margin-left: 1.5rem;
-		@include sm { margin-left: 0.6rem; }
-		line-height: 1.5;
-		font-weight: bold;
-	}
-
-	a {
-		text-decoration: underline;
-	}
-
-	.news-info {
-		font-style: italic;
-	}
-
-	.news-header {
-		color: $tx-color-2;
-		font-size: larger;
-	}
-
-	.news-hero {
-		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-		padding-bottom: 0.5rem;
-        margin-bottom: 2rem;
-	}
-
-    .news-section {
-        margin-bottom: 2rem;
-    }
-}
-
-// utility classes
-
-.btn {
-	display: block;
-	font-family: inherit;
-	width: fit-content;
-	border: none; // we use outline instead for a11y
-	padding: 0.7rem 1rem;
-	border-radius: 0.25rem;
-
-	a {
-		text-decoration: none;
-	}
-
-	a:hover {
-		text-decoration: underline;
-	}
-}
-
-.bg-standard {
-	background: $bg-color-1;
-}
-
-.bg-accent {
-	background: $bg-color-2;
-}
-
-.bg-highlight {
-    background: $bg-color-3;
-}
-
-.text-highlight {
-    color: $bg-color-3;
-}
-
-.outline-highlight {
-    background: 0;
-    border: 1px solid $bg-color-3;
+p {
+  display: block;
+  margin: auto;
+  max-width: 50ch;
 }
