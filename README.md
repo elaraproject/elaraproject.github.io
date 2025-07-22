@@ -1,6 +1,6 @@
 # Project Elara website (legacy)
 
-> :warning: **IMPORTANT:** Project Elara has switched over to the open-source forge [Codeberg](https://codeberg.org/). The Project Elara website repository has been moved to [this Codeberg page](https://codeberg.org/elaraproject/website), and the up-to-date version of the website is now at [elaraproject.org](https://elaraproject.org/). **This GitHub repository is no longer unmaintained**.
+> :warning: **IMPORTANT:** Project Elara has switched over to the open-source forge [Codeberg](https://codeberg.org/). The Project Elara website repository has been moved to [this Codeberg page](https://codeberg.org/elaraproject/website), and the up-to-date version of the website is now at [elaraproject.org](https://elaraproject.org/). **This GitHub repository is no longer maintained**.
 
 This is Project Elara's website, the most up-to-date and authoritative source of information about Project Elara. This includes links to the latest research papers and assets, project announcements and news, as well as guides to our work.
 
